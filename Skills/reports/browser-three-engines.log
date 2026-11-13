@@ -1,0 +1,59 @@
+Explicit local Chromium mode: C:\Users\user\AppData\Local\ms-playwright\chromium-1247\chrome-win64\chrome.exe; Firefox and WebKit are not selected.
+
+> skills-testing-toolkit@1.0.0 e2e
+> playwright test --project=chromium-local --project=firefox --project=webkit
+
+
+Running 9 tests using 3 workers
+
+(node:17064) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:7832) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:37824) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 1 [chromium-local] › e2e\demo.spec.js:3:1 › local signup journey and accessibility (2.3s)
+  ok 4 [chromium-local] › e2e\demo.spec.js:9:1 › page accessibility (1.3s)
+  ok 5 [chromium-local] › e2e\demo.spec.js:12:1 › visual baseline (790ms)
+  ok 2 [webkit] › e2e\demo.spec.js:3:1 › local signup journey and accessibility (5.4s)
+  ok 6 [webkit] › e2e\demo.spec.js:9:1 › page accessibility (4.9s)
+  ok 3 [firefox] › e2e\demo.spec.js:3:1 › local signup journey and accessibility (8.4s)
+  ok 7 [webkit] › e2e\demo.spec.js:12:1 › visual baseline (1.7s)
+  ok 8 [firefox] › e2e\demo.spec.js:9:1 › page accessibility (2.5s)
+  x  9 [firefox] › e2e\demo.spec.js:12:1 › visual baseline (1.4s)
+
+
+  1) [firefox] › e2e\demo.spec.js:12:1 › visual baseline ───────────────────────────────────────────
+
+    Error: A snapshot doesn't exist at D:\Project\Skills\frontend\e2e\demo.spec.js-snapshots\homepage-firefox-win32.png, writing actual.
+
+      11 | });
+      12 | test('visual baseline',async({page})=>{
+    > 13 |   await page.goto('/'); await expect(page).toHaveScreenshot('homepage.png',{fullPage:true});
+         |                         ^
+      14 | });
+      15 |
+        at D:\Project\Skills\frontend\e2e\demo.spec.js:13:25
+
+    attachment #1: homepage (image/png) ────────────────────────────────────────────────────────────
+    Expected: e2e\demo.spec.js-snapshots\homepage-firefox-win32.png
+    Received: test-results\demo-visual-baseline-firefox\homepage-actual.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\demo-visual-baseline-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\demo-visual-baseline-firefox\error-context.md
+
+    attachment #4: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\demo-visual-baseline-firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\demo-visual-baseline-firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  1 failed
+    [firefox] › e2e\demo.spec.js:12:1 › visual baseline ────────────────────────────────────────────
+  8 passed (16.7s)

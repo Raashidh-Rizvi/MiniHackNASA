@@ -1,0 +1,214 @@
+
+> skills-testing-toolkit@1.0.0 mutation
+> stryker run
+
+[32m10:24:12 (21192) INFO ProjectReader[39m Found 1 of 12 file(s) to be mutated.
+[32m10:24:12 (21192) INFO Instrumenter[39m Instrumented 1 source file(s) with 21 mutant(s)
+[32m10:24:12 (21192) INFO ConcurrencyTokenProvider[39m Creating 2 test runner process(es).
+[32m10:24:14 (21192) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[32m10:24:16 (21192) INFO DryRunExecutor[39m Initial test run succeeded. Ran 3 tests in 1 second (net 568.0409999999997 ms, overhead 1236.9590000000003 ms).
+
+All tests/toolkit.test.jsx
+  ~ pricing boundary rules calculates discounts and rounds currency (covered 20)
+  ~ pricing boundary rules rejects invalid totals and percentages (covered 16)
+  ✘ validates before submitting and accepts a corrected email (covered 0)
+
+[Survived] ConditionalExpression
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (true) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] BlockStatement
+src/discount.js:1:42
+-   export function discount(total, percent) {
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
+-     return Math.round(total * (1 - percent / 100) * 100) / 100;
+-   }
++   export function discount(total, percent) {}
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] ConditionalExpression
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (false) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] LogicalOperator
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if ((total < 0 || percent < 0) && percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] ConditionalExpression
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (false || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] LogicalOperator
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 && percent < 0 || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] ConditionalExpression
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (false || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] EqualityOperator
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total <= 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] EqualityOperator
+src/discount.js:2:7
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total >= 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] ConditionalExpression
+src/discount.js:2:20
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || false || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] EqualityOperator
+src/discount.js:2:20
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || percent <= 0 || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] EqualityOperator
+src/discount.js:2:20
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || percent >= 0 || percent > 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] ConditionalExpression
+src/discount.js:2:35
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || percent < 0 || false) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] EqualityOperator
+src/discount.js:2:35
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || percent < 0 || percent >= 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] StringLiteral
+src/discount.js:2:71
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || percent < 0 || percent > 100) throw new RangeError("");
+Tests ran:
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] EqualityOperator
+src/discount.js:2:35
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || percent < 0 || percent <= 100) throw new RangeError('Invalid discount');
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+    pricing boundary rules rejects invalid totals and percentages
+
+
+[Survived] ArithmeticOperator
+src/discount.js:3:10
+-     return Math.round(total * (1 - percent / 100) * 100) / 100;
++     return Math.round(total * (1 - percent / 100) * 100) * 100;
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+
+
+[Survived] ArithmeticOperator
+src/discount.js:3:21
+-     return Math.round(total * (1 - percent / 100) * 100) / 100;
++     return Math.round(total * (1 - percent / 100) / 100) / 100;
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+
+
+[Survived] ArithmeticOperator
+src/discount.js:3:30
+-     return Math.round(total * (1 - percent / 100) * 100) / 100;
++     return Math.round(total * (1 + percent / 100) * 100) / 100;
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+
+
+[Survived] ArithmeticOperator
+src/discount.js:3:21
+-     return Math.round(total * (1 - percent / 100) * 100) / 100;
++     return Math.round(total / (1 - percent / 100) * 100) / 100;
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+
+
+[Survived] ArithmeticOperator
+src/discount.js:3:34
+-     return Math.round(total * (1 - percent / 100) * 100) / 100;
++     return Math.round(total * (1 - percent * 100) * 100) / 100;
+Tests ran:
+    pricing boundary rules calculates discounts and rounds currency
+
+
+Ran 0.00 tests per mutant on average.
+-------------|------------------|----------|-----------|------------|----------|----------|
+             | % Mutation score |          |           |            |          |          |
+File         |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+-------------|--------|---------|----------|-----------|------------|----------|----------|
+All files    |   0.00 |    0.00 |        0 |         0 |         21 |        0 |        0 |
+ discount.js |   0.00 |    0.00 |        0 |         0 |         21 |        0 |        0 |
+-------------|--------|---------|----------|-----------|------------|----------|----------|
+[91m10:24:36 (21192) ERROR MutationTestReportHelper[39m Final mutation score 0.00 under breaking threshold 70, setting exit code to 1 (failure).
+[32m10:24:36 (21192) INFO MutationTestReportHelper[39m (improve mutation score or set `thresholds.break = null` to prevent this error in the future)
+[32m10:24:36 (21192) INFO JsonReporter[39m Your report can be found at: file:///D:/Project/Skills/frontend/reports/mutation/mutation.json
+[32m10:24:36 (21192) INFO HtmlReporter[39m Your report can be found at: file:///D:/Project/Skills/frontend/reports/mutation/mutation.html
+[32m10:24:36 (21192) INFO MutationTestExecutor[39m Done in 23 seconds.

@@ -1,0 +1,196 @@
+[
+  {
+    "name": "junit",
+    "repository": "junit-team/junit-framework",
+    "status": "downloaded",
+    "commit": "576f546b1620c1689a3744351ce66a512e6531fb",
+    "path": "D:\\Project\\Skills\\repositories\\junit"
+  },
+  {
+    "name": "axe-core",
+    "repository": "dequelabs/axe-core",
+    "status": "downloaded",
+    "commit": "6b52b841461bd23345970b91ec75fdaff6bad31a",
+    "path": "D:\\Project\\Skills\\repositories\\axe-core"
+  },
+  {
+    "name": "playwright",
+    "repository": "microsoft/playwright",
+    "status": "downloaded",
+    "commit": "20a2087ea43412b90c172c88faef80786ee18b8b",
+    "path": "D:\\Project\\Skills\\repositories\\playwright"
+  },
+  {
+    "name": "vitest",
+    "repository": "vitest-dev/vitest",
+    "status": "downloaded",
+    "commit": "a5022655de04ec3581026dac16b11251e4b6d40d",
+    "path": "D:\\Project\\Skills\\repositories\\vitest"
+  },
+  {
+    "name": "testing-library",
+    "repository": "testing-library/react-testing-library",
+    "status": "downloaded",
+    "commit": "20ce75f2907ca0e5c5a8ae595c0e9a4e368c7800",
+    "path": "D:\\Project\\Skills\\repositories\\testing-library"
+  },
+  {
+    "name": "mockito",
+    "repository": "mockito/mockito",
+    "status": "downloaded",
+    "commit": "220c594adceebf92a0d06e2fb1e4398b25344d46",
+    "path": "D:\\Project\\Skills\\repositories\\mockito"
+  },
+  {
+    "name": "k6",
+    "repository": "grafana/k6",
+    "status": "downloaded",
+    "commit": "bae5899a2e048b28401cb2cf73a5f190950ffefc",
+    "path": "D:\\Project\\Skills\\repositories\\k6"
+  },
+  {
+    "name": "schemathesis",
+    "repository": "schemathesis/schemathesis",
+    "status": "downloaded",
+    "commit": "376156eafddc6f88b47c640f758078b2175ad957",
+    "path": "D:\\Project\\Skills\\repositories\\schemathesis"
+  },
+  {
+    "name": "testcontainers-java",
+    "repository": "testcontainers/testcontainers-java",
+    "status": "downloaded",
+    "commit": "10b31599694f3c49b4d7455cf1a375f30f150d11",
+    "path": "D:\\Project\\Skills\\repositories\\testcontainers-java"
+  },
+  {
+    "name": "lighthouse-ci",
+    "repository": "GoogleChrome/lighthouse-ci",
+    "status": "downloaded",
+    "commit": "44c608c465f7b285976ce0b37786391cedc3d2f4",
+    "path": "D:\\Project\\Skills\\repositories\\lighthouse-ci"
+  },
+  {
+    "name": "wiremock",
+    "repository": "wiremock/wiremock",
+    "status": "downloaded",
+    "commit": "a41e0f1f2f0d2f5b4cdca5fed43d93870b42bf07",
+    "path": "D:\\Project\\Skills\\repositories\\wiremock"
+  },
+  {
+    "name": "rest-assured",
+    "repository": "rest-assured/rest-assured",
+    "status": "downloaded",
+    "commit": "9078ee01430e0024cc4538ee58819558d810acec",
+    "path": "D:\\Project\\Skills\\repositories\\rest-assured"
+  },
+  {
+    "name": "semgrep",
+    "repository": "semgrep/semgrep",
+    "status": "downloaded",
+    "commit": "087e93b3a1fdf44f97bc92b5b9c2ba221cb2488b",
+    "path": "D:\\Project\\Skills\\repositories\\semgrep"
+  },
+  {
+    "name": "gitleaks",
+    "repository": "gitleaks/gitleaks",
+    "status": "downloaded",
+    "commit": "b58d3f102cf3a2c84cb7f923d05c25c9b1aed84b",
+    "path": "D:\\Project\\Skills\\repositories\\gitleaks"
+  },
+  {
+    "name": "pitest",
+    "repository": "hcoles/pitest",
+    "status": "downloaded",
+    "commit": "f7fe5adfa5fb6e727c12d2403a48f5e4e9dd2fc6",
+    "path": "D:\\Project\\Skills\\repositories\\pitest"
+  },
+  {
+    "name": "toxiproxy",
+    "repository": "Shopify/toxiproxy",
+    "status": "downloaded",
+    "commit": "49299d8838525126e09c85ebe0ba89940a3261e5",
+    "path": "D:\\Project\\Skills\\repositories\\toxiproxy"
+  },
+  {
+    "name": "gitleaks",
+    "version": "v8.30.1",
+    "status": "downloaded",
+    "asset": "gitleaks_8.30.1_windows_x64.zip",
+    "url": "https://github.com/gitleaks/gitleaks/releases/download/v8.30.1/gitleaks_8.30.1_windows_x64.zip",
+    "sha256": "d29144deff3a68aa93ced33dddf84b7fdc26070add4aa0f4513094c8332afc4e",
+    "verifiedReleaseChecksum": true
+  },
+  {
+    "name": "zap",
+    "repository": "zaproxy/zaproxy",
+    "status": "downloaded",
+    "commit": "beb2c3502c39b80b281348f6349ea0df46ae61df",
+    "path": "D:\\Project\\Skills\\repositories\\zap"
+  },
+  {
+    "name": "k6",
+    "version": "v2.3.0",
+    "status": "downloaded",
+    "asset": "k6-v2.3.0-windows-amd64.zip",
+    "url": "https://github.com/grafana/k6/releases/download/v2.3.0/k6-v2.3.0-windows-amd64.zip",
+    "sha256": "112276d495e5741c968e2bc09ea6196099c1275bd6db9ee0875d173c7148ce43",
+    "verifiedReleaseChecksum": true
+  },
+  {
+    "name": "trivy",
+    "repository": "aquasecurity/trivy",
+    "status": "downloaded",
+    "commit": "0231990f702f626e6981afaafcb0c97d43be28c7",
+    "path": "D:\\Project\\Skills\\repositories\\trivy"
+  },
+  {
+    "name": "toxiproxy",
+    "version": "v2.13.0",
+    "status": "downloaded",
+    "asset": "toxiproxy-server-windows-amd64.exe",
+    "url": "https://github.com/Shopify/toxiproxy/releases/download/v2.13.0/toxiproxy-server-windows-amd64.exe",
+    "sha256": "04b710eefd7690c89f7cc67289e3e14618f1ff3c26e4a5f752a34a879b895bab",
+    "verifiedReleaseChecksum": true
+  },
+  {
+    "name": "toxiproxy-cli",
+    "version": "v2.13.0",
+    "status": "downloaded",
+    "asset": "toxiproxy-cli-windows-amd64.exe",
+    "url": "https://github.com/Shopify/toxiproxy/releases/download/v2.13.0/toxiproxy-cli-windows-amd64.exe",
+    "sha256": "6585d19999abfc1d0c3b3276343ddfe81fbb4b50883ce810337678243a90499b",
+    "verifiedReleaseChecksum": true
+  },
+  {
+    "name": "zap",
+    "version": "v2.17.0",
+    "status": "downloaded",
+    "asset": "ZAP_2.17.0_Core.zip",
+    "url": "https://github.com/zaproxy/zaproxy/releases/download/v2.17.0/ZAP_2.17.0_Core.zip",
+    "sha256": "0cb73b7f72d12c263fb61de304edb82a455d7aa4e1813c216c061765c306f5b7",
+    "verifiedReleaseChecksum": true
+  },
+  {
+    "name": "stryker-js",
+    "repository": "stryker-mutator/stryker-js",
+    "status": "downloaded",
+    "commit": "c931a93237816901f1e9f48da411170beeb3dfca",
+    "path": "D:\\Project\\Skills\\repositories\\stryker-js"
+  },
+  {
+    "name": "vibe-wise",
+    "repository": "nykooi1/vibe-wise",
+    "status": "downloaded",
+    "commit": "eefb53df406ab89e31444684ff32c1df205221f8",
+    "path": "D:\\Project\\Skills\\repositories\\vibe-wise"
+  },
+  {
+    "name": "trivy",
+    "version": "v0.76.1",
+    "status": "downloaded",
+    "asset": "trivy_0.76.1_windows-64bit.zip",
+    "url": "https://github.com/aquasecurity/trivy/releases/download/v0.76.1/trivy_0.76.1_windows-64bit.zip",
+    "sha256": "1051f49cb22d5284f43425f72aad9cda63ca12ceb92e7caa06903490c82dc9bf",
+    "verifiedReleaseChecksum": true
+  }
+]

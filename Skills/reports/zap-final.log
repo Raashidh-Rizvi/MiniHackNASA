@@ -1,0 +1,24 @@
+
+D:\Project\Skills\tools\zap\ZAP_2.17.0>if exist "C:\Users\user\ZAP\.ZAP_JVM.properties" (set /p jvmopts= 0<"C:\Users\user\ZAP\.ZAP_JVM.properties" )  else (set jvmopts=-Xmx512m ) 
+
+D:\Project\Skills\tools\zap\ZAP_2.17.0>java -Xmx512m -jar zap-2.17.0.jar -cmd -silent -dir D:\Project\Skills\tools\zap-home -config autoupdate.checkOnStart=false -autorun D:\Project\Skills\reports\zap-plan.yaml 
+WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+WARNING: sun.misc.Unsafe::allocateMemory has been called by io.netty.util.internal.PlatformDependent0$2 (file:/D:/Project/Skills/tools/zap-home/plugin/network-beta-0.31.0.zap)
+WARNING: Please consider reporting this to the maintainers of class io.netty.util.internal.PlatformDependent0$2
+WARNING: sun.misc.Unsafe::allocateMemory will be removed in a future release
+Job spider set context = target
+Job spider set maxDuration = 1
+Job passiveScan-wait set maxDuration = 2
+Job report set template = traditional-html
+Job report set reportDir = D:\Project\Skills\reports
+Job report set reportFile = zap-passive.html
+Job spider started
+Job spider requesting URL http://127.0.0.1:4173
+Job spider found 4 URLs
+Job spider finished, time taken: 00:00:00
+Job passiveScan-wait started
+Job passiveScan-wait finished, time taken: 00:00:01
+Job report started
+Job report generated report D:\Project\Skills\reports\zap-passive.html
+Job report finished, time taken: 00:00:00
+Automation plan succeeded!

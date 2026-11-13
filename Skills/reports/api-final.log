@@ -1,0 +1,47 @@
+Schemathesis v4.32.4
+━━━━━━━━━━━━━━━━━━━━
+
+ ✅  Loaded specification from http://127.0.0.1:4173/openapi.json (in 0.60s)
+
+     Base URL:         http://127.0.0.1:4173/
+     Specification:    Open API 3.0.3
+     Operations:       1 selected / 1 total
+
+ ✅  API capabilities:
+
+     Supports NULL byte in headers:                            ✘
+     Accepts backslash and control characters in URL paths:    ✓
+
+ ⏭   Examples (in 0.00s)
+
+     ⏭  1 skipped
+
+ ✅  Coverage (in 0.10s)
+
+     ✅ 1 passed
+
+ ✅  Fuzzing (in 0.01s)
+
+     ✅ 1 passed
+
+=================================== SUMMARY ====================================
+
+API Operations:
+  Selected: 1/1
+  Tested: 1
+
+Test Phases:
+  ⏭  Examples
+  ✅ Coverage
+  ✅ Fuzzing
+  ⏭  Stateful (not applicable)
+
+Test cases:
+  10 generated, 10 passed
+
+Reports:
+  - JUnit: D:\Project\Skills\reports\schemathesis.xml
+
+Seed: 88844743444539686976494810055893828231
+
+=========================== No issues found in 0.20s ===========================

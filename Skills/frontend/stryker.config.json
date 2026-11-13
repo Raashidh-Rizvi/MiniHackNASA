@@ -1,0 +1,1 @@
+{"testRunner":"vitest","mutate":["src/discount.js"],"reporters":["clear-text","html","json"],"thresholds":{"high":90,"low":75,"break":70},"concurrency":2}

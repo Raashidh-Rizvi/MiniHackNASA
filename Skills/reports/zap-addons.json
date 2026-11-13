@@ -1,0 +1,26 @@
+[
+  {
+    "name": "zap-addon-commonlib",
+    "size": 11720477,
+    "sha256": "6450205e07248c20e9c8de185268cf1cd571f3cec7f7c0e5d10178b2126834f9",
+    "path": "D:\\Project\\Skills\\downloads\\commonlib-release-1.44.0.zap",
+    "url": "https://github.com/zaproxy/zap-extensions/releases/download/commonlib-v1.44.0/commonlib-release-1.44.0.zap",
+    "expectedSHA256Verified": true
+  },
+  {
+    "name": "zap-addon-automation",
+    "size": 2171491,
+    "sha256": "3a51587d164813883823d1091a4b19e248a15bd0dc19f37c3ef86a7b7c6aa223",
+    "path": "D:\\Project\\Skills\\downloads\\automation-beta-0.61.0.zap",
+    "url": "https://github.com/zaproxy/zap-extensions/releases/download/automation-v0.61.0/automation-beta-0.61.0.zap",
+    "expectedSHA256Verified": true
+  },
+  {
+    "name": "zap-addon-network",
+    "size": 26132957,
+    "sha256": "d717c9599c2794b30337fd840a726730e185642b96412bd9c898a0167e5f9219",
+    "path": "D:\\Project\\Skills\\downloads\\network-beta-0.31.0.zap",
+    "url": "https://github.com/zaproxy/zap-extensions/releases/download/network-v0.31.0/network-beta-0.31.0.zap",
+    "expectedSHA256Verified": true
+  }
+]

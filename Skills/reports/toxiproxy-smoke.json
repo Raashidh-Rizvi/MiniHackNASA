@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "injectedLatencyMs": 250,
+  "observedSeconds": 0.2517455999623053,
+  "target": "local bundled fixture"
+}

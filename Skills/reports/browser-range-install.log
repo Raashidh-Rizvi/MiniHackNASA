@@ -1,0 +1,61 @@
+ffmpeg-1013: complete, SHA256 0c4ee6c694e9bffea27128ab543ae573466c5245d7d16c054e40115d7d743874
+webkit-2370: 10/60 MiB
+webkit-2370: 20/60 MiB
+webkit-2370: 30/60 MiB
+webkit-2370: 40/60 MiB
+webkit-2370: 50/60 MiB
+webkit-2370: 60/60 MiB
+webkit-2370: complete, SHA256 350cbf3b526414a83cd09c2481a4d134e67f4d52850093d703545dee6fdcb047
+chromium-1248: 10/197 MiB
+chromium_headless_shell-1248: 10/118 MiB
+Traceback (most recent call last):
+  File "D:\Project\Skills\scripts\install-browsers-range.py", line 27, in <module>
+    for result in pool.map(install,jobs):
+                  ~~~~~~~~^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 625, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 318, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 460, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 402, in __get_result
+    raise self._exception
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\Project\Skills\scripts\install-browsers-range.py", line 17, in install
+    result=ranged.download((name,link,archive,sha))
+  File "D:\Project\Skills\scripts\range-download.py", line 27, in download
+    for _ in pool.map(chunk,range(math.ceil(size/chunksize))):
+             ~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 625, in result_iterator
+    yield _result_or_cancel(fs.pop())
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 318, in _result_or_cancel
+    return fut.result(timeout)
+           ~~~~~~~~~~^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 453, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\_base.py", line 402, in __get_result
+    raise self._exception
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "D:\Project\Skills\scripts\range-download.py", line 20, in chunk
+    data=r.read()
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 510, in read
+    s = self._safe_read(self.length)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\http\client.py", line 667, in _safe_read
+    data = self.fp.read(cursize)
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\socket.py", line 723, in readinto
+    return self._sock.recv_into(b)
+           ~~~~~~~~~~~~~~~~~~~~^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1304, in recv_into
+    return self.read(nbytes, buffer)
+           ~~~~~~~~~^^^^^^^^^^^^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\ssl.py", line 1138, in read
+    return self._sslobj.read(len, buffer)
+           ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^
+TimeoutError: The read operation timed out

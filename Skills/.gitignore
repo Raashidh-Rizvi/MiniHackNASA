@@ -1,0 +1,13 @@
+node_modules/
+.venv/
+repositories/
+tools/
+downloads/
+**/target/
+**/playwright-report/
+**/test-results/
+**/reports/mutation/
+.stryker-tmp/
+.lighthouseci/
+__pycache__/
+.vibe-wise/

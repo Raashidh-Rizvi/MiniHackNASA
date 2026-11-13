@@ -1,0 +1,24 @@
+
+> skills-testing-toolkit@1.0.0 lighthouse
+> lhci autorun
+
+✅  .lighthouseci/ directory writable
+✅  Configuration file found
+✅  Chrome installation found
+Healthcheck passed!
+
+Started a web server with "node server.mjs"...
+Running Lighthouse 3 time(s) on http://127.0.0.1:4173
+Run #1...done.
+Run #2...done.
+Run #3...done.
+Done running Lighthouse!
+
+Checking assertions against 1 URL(s), 3 total run(s)
+
+All results processed!
+
+Dumping 3 reports to disk at D:\Project\Skills\reports\lighthouse...
+Done writing reports to disk.
+
+Done running autorun.

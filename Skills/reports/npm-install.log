@@ -1,0 +1,4 @@
+npm error code ETARGET
+npm error notarget No matching version found for rolldown@~1.2.14.
+npm error notarget In most cases you or one of your dependencies are requesting a package version that doesn't exist.
+npm error A complete log of this run can be found in: C:\Users\user\AppData\Local\npm-cache\_logs\2026-10-23T04_40_18_170Z-debug-0.log

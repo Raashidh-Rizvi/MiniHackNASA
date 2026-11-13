@@ -1,0 +1,92 @@
+[
+  {
+    "task": "unit",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\unit-final.log"
+  },
+  {
+    "task": "java",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\java-test-retry.log"
+  },
+  {
+    "task": "browser-chromium-local",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\browser-launcher.log"
+  },
+  {
+    "task": "mutation-js",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\mutation-js-retry.log"
+  },
+  {
+    "task": "mutation-java",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\mutation-java.log"
+  },
+  {
+    "task": "lighthouse",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\lighthouse-retry.log"
+  },
+  {
+    "task": "load",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\load.log"
+  },
+  {
+    "task": "secrets",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\secrets.log"
+  },
+  {
+    "task": "toxiproxy",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\toxiproxy-smoke.json"
+  },
+  {
+    "task": "database",
+    "status": "blocked-Docker",
+    "log": "D:\\Project\\Skills\\reports\\database.log"
+  },
+  {
+    "task": "trivy-vulnerability-scan",
+    "status": "blocked-database-download",
+    "log": "D:\\Project\\Skills\\reports\\trivy-retry.log"
+  },
+  {
+    "task": "semgrep",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\semgrep.log"
+  },
+  {
+    "task": "trivy-configuration",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\trivy-config-retry.log"
+  },
+  {
+    "task": "browser-chromium-and-webkit",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\browser-two-engines.log"
+  },
+  {
+    "task": "zap-passive",
+    "status": "completed-with-findings",
+    "log": "D:\\Project\\Skills\\reports\\zap-final.log"
+  },
+  {
+    "task": "api",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\api-after-install.log"
+  },
+  {
+    "task": "chromium-matching-version-download",
+    "status": "incomplete-network-timeouts",
+    "log": "D:\\Project\\Skills\\reports\\browser-install.log"
+  },
+  {
+    "task": "browser-three-engines",
+    "status": "passed",
+    "log": "D:\\Project\\Skills\\reports\\browser-three-engines-verified.log"
+  }
+]

@@ -1,0 +1,35 @@
+
+> skills-testing-toolkit@1.0.0 mutation
+> stryker run
+
+[32m10:26:05 (34680) INFO ProjectReader[39m Found 1 of 19 file(s) to be mutated.
+[32m10:26:05 (34680) INFO Instrumenter[39m Instrumented 1 source file(s) with 21 mutant(s)
+[32m10:26:05 (34680) INFO ConcurrencyTokenProvider[39m Creating 2 test runner process(es).
+[32m10:26:06 (34680) INFO DryRunExecutor[39m Starting initial test run (vitest test runner with "perTest" coverage analysis). This may take a while.
+[32m10:26:08 (34680) INFO DryRunExecutor[39m Initial test run succeeded. Ran 3 tests in 1 second (net 592.3481000000002 ms, overhead 1164.6518999999998 ms).
+
+All tests/toolkit.test.jsx
+  ✓ pricing boundary rules calculates discounts and rounds currency (killed 13)
+  ✓ pricing boundary rules rejects invalid totals and percentages (killed 7)
+  ✘ validates before submitting and accepts a corrected email (covered 0)
+
+[Survived] StringLiteral
+src/discount.js:2:71
+-     if (total < 0 || percent < 0 || percent > 100) throw new RangeError('Invalid discount');
++     if (total < 0 || percent < 0 || percent > 100) throw new RangeError("");
+Tests ran:
+    pricing boundary rules rejects invalid totals and percentages
+
+
+Ran 1.33 tests per mutant on average.
+-------------|------------------|----------|-----------|------------|----------|----------|
+             | % Mutation score |          |           |            |          |          |
+File         |  total | covered | # killed | # timeout | # survived | # no cov | # errors |
+-------------|--------|---------|----------|-----------|------------|----------|----------|
+All files    |  95.24 |   95.24 |       20 |         0 |          1 |        0 |        0 |
+ discount.js |  95.24 |   95.24 |       20 |         0 |          1 |        0 |        0 |
+-------------|--------|---------|----------|-----------|------------|----------|----------|
+[32m10:26:29 (34680) INFO MutationTestReportHelper[39m Final mutation score of 95.24 is greater than or equal to break threshold 70
+[32m10:26:29 (34680) INFO JsonReporter[39m Your report can be found at: file:///D:/Project/Skills/frontend/reports/mutation/mutation.json
+[32m10:26:29 (34680) INFO HtmlReporter[39m Your report can be found at: file:///D:/Project/Skills/frontend/reports/mutation/mutation.html
+[32m10:26:29 (34680) INFO MutationTestExecutor[39m Done in 24 seconds.

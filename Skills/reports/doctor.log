@@ -1,0 +1,14 @@
+Node: ready v24.19.0
+Python: ready Python 3.13.15
+Java: ready openjdk version "25.0.4.1" 2026-08-18 LTS
+OpenJDK Runtime Environment Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS)
+OpenJDK 64-Bit Server VM Temurin-25.0.4.1+1 (build 25.0.4.1+1-LTS, mixed mode, sharing)
+Docker engine: failed failed to connect to the docker API at npipe:////./pipe/dockerDesktopLinuxEngine; check if the path is correct and if the daemon is running: open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified.
+Schemathesis: ready schemathesis, version 4.32.4
+Semgrep: ready A new version of Semgrep is available. See https://semgrep.dev/docs/upgrading
+1.179.0
+k6: ready k6.exe v2.3.0 (commit/e088784614, go1.26.8, windows/amd64)
+gitleaks: ready gitleaks version 8.30.1
+trivy: ready Version: 0.76.1
+toxiproxy: ready toxiproxy-server version 2.13.0
+toxiproxy-cli: ready toxiproxy-cli version 2.13.0

@@ -1,0 +1,6 @@
+rules:
+  - id: avoid-eval
+    languages: [javascript, typescript, python]
+    severity: WARNING
+    message: Review dynamic code evaluation; prefer parsing validated data.
+    pattern: eval(...)

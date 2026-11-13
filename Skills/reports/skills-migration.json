@@ -1,0 +1,260 @@
+[
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\api-and-interface-design",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\api-and-interface-design",
+    "name": "api-and-interface-design"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\brandkit",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\brandkit",
+    "name": "brandkit"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\browser-testing-with-devtools",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\browser-testing-with-devtools",
+    "name": "browser-testing-with-devtools"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\ci-cd-and-automation",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\ci-cd-and-automation",
+    "name": "ci-cd-and-automation"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\code-review-and-quality",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\code-review-and-quality",
+    "name": "code-review-and-quality"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\code-simplification",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\code-simplification",
+    "name": "code-simplification"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\constraint-driven-development",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\constraint-driven-development",
+    "name": "constraint-driven-development"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\context-engineering",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\context-engineering",
+    "name": "context-engineering"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\debugging-and-error-recovery",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\debugging-and-error-recovery",
+    "name": "debugging-and-error-recovery"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\deprecation-and-migration",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\deprecation-and-migration",
+    "name": "deprecation-and-migration"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\design-taste-frontend",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\design-taste-frontend",
+    "name": "design-taste-frontend"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\design-taste-frontend-v1",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\design-taste-frontend-v1",
+    "name": "design-taste-frontend-v1"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\design-taste-frontend-v2-experimental",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\design-taste-frontend-v2-experimental",
+    "name": "design-taste-frontend-v2-experimental"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\documentation-and-adrs",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\documentation-and-adrs",
+    "name": "documentation-and-adrs"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\doubt-driven-development",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\doubt-driven-development",
+    "name": "doubt-driven-development"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\frontend-ui-engineering",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\frontend-ui-engineering",
+    "name": "frontend-ui-engineering"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\full-output-enforcement",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\full-output-enforcement",
+    "name": "full-output-enforcement"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\git-workflow-and-versioning",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\git-workflow-and-versioning",
+    "name": "git-workflow-and-versioning"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\gpt-taste",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\gpt-taste",
+    "name": "gpt-taste"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\graphify",
+    "identical": false,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\graphify",
+    "name": "graphify"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\high-end-visual-design",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\high-end-visual-design",
+    "name": "high-end-visual-design"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\idea-refine",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\idea-refine",
+    "name": "idea-refine"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\image-to-code",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\image-to-code",
+    "name": "image-to-code"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\imagegen-frontend-mobile",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\imagegen-frontend-mobile",
+    "name": "imagegen-frontend-mobile"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\imagegen-frontend-web",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\imagegen-frontend-web",
+    "name": "imagegen-frontend-web"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\impeccable",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\impeccable",
+    "name": "impeccable"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\incremental-implementation",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\incremental-implementation",
+    "name": "incremental-implementation"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\industrial-brutalist-ui",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\industrial-brutalist-ui",
+    "name": "industrial-brutalist-ui"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\interview-me",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\interview-me",
+    "name": "interview-me"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\minimalist-ui",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\minimalist-ui",
+    "name": "minimalist-ui"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\observability-and-instrumentation",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\observability-and-instrumentation",
+    "name": "observability-and-instrumentation"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\performance-optimization",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\performance-optimization",
+    "name": "performance-optimization"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\planning-and-task-breakdown",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\planning-and-task-breakdown",
+    "name": "planning-and-task-breakdown"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\ponytail",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\ponytail",
+    "name": "ponytail"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\redesign-existing-projects",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\redesign-existing-projects",
+    "name": "redesign-existing-projects"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\security-and-hardening",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\security-and-hardening",
+    "name": "security-and-hardening"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\shipping-and-launch",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\shipping-and-launch",
+    "name": "shipping-and-launch"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\source-driven-development",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\source-driven-development",
+    "name": "source-driven-development"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\spec-driven-development",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\spec-driven-development",
+    "name": "spec-driven-development"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\stitch-design-taste",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\stitch-design-taste",
+    "name": "stitch-design-taste"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\test-driven-development",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\test-driven-development",
+    "name": "test-driven-development"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\using-agent-skills",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\using-agent-skills",
+    "name": "using-agent-skills"
+  },
+  {
+    "claude": "D:\\Project\\Skills\\skills\\claude\\web-design-guidelines",
+    "identical": true,
+    "canonical": "D:\\Project\\Skills\\skills\\shared\\web-design-guidelines",
+    "name": "web-design-guidelines"
+  }
+]

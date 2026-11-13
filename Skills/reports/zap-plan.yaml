@@ -1,0 +1,17 @@
+env:
+  contexts:
+    - name: target
+      urls: ["http://127.0.0.1:4173"]
+jobs:
+  - type: spider
+    parameters:
+      context: target
+      maxDuration: 1
+  - type: passiveScan-wait
+    parameters:
+      maxDuration: 2
+  - type: report
+    parameters:
+      template: traditional-html
+      reportDir: "D:\\Project\\Skills\\reports"
+      reportFile: zap-passive.html

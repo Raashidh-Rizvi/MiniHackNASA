@@ -1,0 +1,8 @@
+import http from 'node:http';
+const html = `<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>Toolkit Demo</title><style>body{font:18px system-ui;max-width:720px;margin:60px auto;padding:24px;color:#152a3b;background:#fff}input,button{font:inherit;padding:10px}button{background:#163d63;color:white}label{display:block;margin-bottom:8px}</style></head><body><main><h1>Testing toolkit</h1><p>A local fixture for installation checks.</p><form><label for="email">Email</label><input id="email" type="email" required><button>Join</button></form><p role="status"></p></main><script>document.querySelector('form').addEventListener('submit',e=>{e.preventDefault();document.querySelector('[role=status]').textContent='Thanks for joining';});</script></body></html>`;
+http.createServer((req,res)=>{
+  if(req.method!=='GET'){res.writeHead(405,{'Allow':'GET'});res.end();return;}
+  if(req.url==='/health') {res.writeHead(200,{'Content-Type':'application/json'});res.end('{"status":"ok"}');return;}
+  if(req.url==='/openapi.json'){res.writeHead(200,{'Content-Type':'application/json'});res.end(JSON.stringify({openapi:'3.0.3',info:{title:'Toolkit demo',version:'1.0'},servers:[{url:'http://127.0.0.1:4173'}],paths:{'/health':{get:{responses:{'200':{description:'Healthy',content:{'application/json':{schema:{type:'object',required:['status'],properties:{status:{type:'string',enum:['ok']}}}}}}}}}}}));return;}
+  res.writeHead(200,{'Content-Type':'text/html'});res.end(html);
+}).listen(4173,'127.0.0.1',()=>console.log('Demo: http://127.0.0.1:4173'));

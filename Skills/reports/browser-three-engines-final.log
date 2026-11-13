@@ -1,0 +1,25 @@
+Explicit local Chromium mode: C:\Users\user\AppData\Local\ms-playwright\chromium-1247\chrome-win64\chrome.exe; Firefox and WebKit are not selected.
+
+> skills-testing-toolkit@1.0.0 e2e
+> playwright test --project=chromium-local --project=firefox --project=webkit
+
+
+Running 9 tests using 3 workers
+
+(node:30976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:45628) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:42976) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 2 [chromium-local] › e2e\demo.spec.js:3:1 › local signup journey and accessibility (4.0s)
+  ok 4 [chromium-local] › e2e\demo.spec.js:9:1 › page accessibility (2.3s)
+  ok 5 [chromium-local] › e2e\demo.spec.js:12:1 › visual baseline (1.6s)
+  ok 3 [webkit] › e2e\demo.spec.js:3:1 › local signup journey and accessibility (10.0s)
+  ok 1 [firefox] › e2e\demo.spec.js:3:1 › local signup journey and accessibility (13.4s)
+  ok 6 [webkit] › e2e\demo.spec.js:9:1 › page accessibility (5.6s)
+  ok 7 [firefox] › e2e\demo.spec.js:9:1 › page accessibility (3.2s)
+  ok 8 [webkit] › e2e\demo.spec.js:12:1 › visual baseline (2.7s)
+  ok 9 [firefox] › e2e\demo.spec.js:12:1 › visual baseline (2.7s)
+
+  9 passed (23.7s)

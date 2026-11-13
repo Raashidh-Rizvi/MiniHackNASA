@@ -1,0 +1,5 @@
+
+[mcp_servers.playwright]
+command = 'node'
+args = ['D:\Project\.agent-tools\node_modules\@playwright\mcp\cli.js']
+startup_timeout_sec = 20

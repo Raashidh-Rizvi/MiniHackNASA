@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites errors="0" failures="0" skipped="0" tests="1" time="0.468255">
+  <testsuite name="schemathesis" hostname="LOQ15" errors="0" failures="0" skipped="0" tests="1" time="0.468255">
+    <testcase name="GET /health" time="0.468255" />
+  </testsuite>
+</testsuites>

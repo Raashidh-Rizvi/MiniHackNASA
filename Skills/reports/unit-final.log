@@ -1,0 +1,13 @@
+
+> skills-testing-toolkit@1.0.0 test
+> vitest run
+
+
+ RUN  v4.1.10 D:/Project/Skills/frontend
+
+
+ Test Files  1 passed (1)
+      Tests  3 passed (3)
+   Start at  10:26:01
+   Duration  2.12s (transform 55ms, setup 215ms, import 120ms, tests 574ms, environment 971ms)
+

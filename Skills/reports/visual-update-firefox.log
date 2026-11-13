@@ -1,0 +1,58 @@
+
+> skills-testing-toolkit@1.0.0 e2e:update
+> playwright test --update-snapshots --project firefox
+
+
+Running 3 tests using 1 worker
+
+(node:32672) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  1 [firefox] › e2e\demo.spec.js:3:1 › local signup journey and accessibility (25.7s)
+(node:35952) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  x  2 [firefox] › e2e\demo.spec.js:9:1 › page accessibility (9.7s)
+(node:8964) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 [firefox] › e2e\demo.spec.js:12:1 › visual baseline (2.7s)
+
+
+  1) [firefox] › e2e\demo.spec.js:3:1 › local signup journey and accessibility ─────────────────────
+
+    Error: browserContext.close: ENOENT: no such file or directory, open 'D:\Project\Skills\frontend\test-results\.playwright-artifacts-0\traces\e55eebcb6d281b4de51c-a19ab5cdd552c16365c2.trace'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\demo-local-signup-journey-and-accessibility-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\demo-local-signup-journey-and-accessibility-firefox\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\demo-local-signup-journey-and-accessibility-firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\demo-local-signup-journey-and-accessibility-firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2) [firefox] › e2e\demo.spec.js:9:1 › page accessibility ─────────────────────────────────────────
+
+    Error: browserContext.close: ENOENT: no such file or directory, open 'D:\Project\Skills\frontend\test-results\.playwright-artifacts-1\traces\e55eebcb6d281b4de51c-04b5bb8e0ffb98017b1d.trace'
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\demo-page-accessibility-firefox\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Error Context: test-results\demo-page-accessibility-firefox\error-context.md
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\demo-page-accessibility-firefox\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\demo-page-accessibility-firefox\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+  2 failed
+    [firefox] › e2e\demo.spec.js:3:1 › local signup journey and accessibility ──────────────────────
+    [firefox] › e2e\demo.spec.js:9:1 › page accessibility ──────────────────────────────────────────
+  1 passed (48.9s)

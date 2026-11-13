@@ -1,0 +1,26 @@
+[
+  {
+    "name": "semgrep",
+    "size": 59181689,
+    "sha256": "e464d398107d026aa6e9c938fab2efabdf2ff8a9c7a52d7abeed0c149e62b68c",
+    "path": "D:\\Project\\Skills\\downloads\\semgrep-1.182.1-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/bc/2d/a161b139db9d28f94849696f3f68bc18e119b009d614b3b0df7d2748d953/semgrep-1.182.1-cp310.cp311.cp312.cp313.cp314.py310.py311.py312.py313.py314-none-win_amd64.whl",
+    "expectedSHA256Verified": true
+  },
+  {
+    "name": "trivy",
+    "size": 53886844,
+    "sha256": "1051f49cb22d5284f43425f72aad9cda63ca12ceb92e7caa06903490c82dc9bf",
+    "path": "D:\\Project\\Skills\\downloads\\trivy_0.76.1_windows-64bit.zip",
+    "url": "https://github.com/aquasecurity/trivy/releases/download/v0.76.1/trivy_0.76.1_windows-64bit.zip",
+    "expectedSHA256Verified": true
+  },
+  {
+    "name": "zap-core",
+    "size": 108340737,
+    "sha256": "0cb73b7f72d12c263fb61de304edb82a455d7aa4e1813c216c061765c306f5b7",
+    "path": "D:\\Project\\Skills\\downloads\\ZAP_2.17.0_Core.zip",
+    "url": "https://github.com/zaproxy/zaproxy/releases/download/v2.17.0/ZAP_2.17.0_Core.zip",
+    "expectedSHA256Verified": true
+  }
+]

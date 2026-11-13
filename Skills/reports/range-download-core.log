@@ -1,0 +1,23 @@
+semgrep: 10/56 MiB
+trivy: 10/51 MiB
+semgrep: 20/56 MiB
+zap-core: 10/103 MiB
+semgrep: 30/56 MiB
+trivy: 20/51 MiB
+trivy: 30/51 MiB
+semgrep: 40/56 MiB
+zap-core: 20/103 MiB
+zap-core: 30/103 MiB
+trivy: 40/51 MiB
+trivy: 50/51 MiB
+trivy: complete, SHA256 1051f49cb22d5284f43425f72aad9cda63ca12ceb92e7caa06903490c82dc9bf
+zap-core: 40/103 MiB
+zap-core: 50/103 MiB
+semgrep: 50/56 MiB
+semgrep: complete, SHA256 e464d398107d026aa6e9c938fab2efabdf2ff8a9c7a52d7abeed0c149e62b68c
+zap-core: 60/103 MiB
+zap-core: 70/103 MiB
+zap-core: 80/103 MiB
+zap-core: 90/103 MiB
+zap-core: 100/103 MiB
+zap-core: complete, SHA256 0cb73b7f72d12c263fb61de304edb82a455d7aa4e1813c216c061765c306f5b7

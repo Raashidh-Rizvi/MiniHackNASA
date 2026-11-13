@@ -1,0 +1,6 @@
+interface:
+  display_name: "Testing Toolkit"
+  short_description: "Choose suitable tests and quality checks for a project"
+  default_prompt: "Use $testing-toolkit to choose and run the checks relevant to this project and my changes, then report results and blockers."
+policy:
+  allow_implicit_invocation: true

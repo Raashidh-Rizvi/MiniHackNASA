@@ -1,0 +1,11 @@
+[
+  {
+    "name": "firefox-1555",
+    "size": 129834277,
+    "sha256": "410e14bca6099c089c2092df67803320aab70433a754aae356c4c2e990cf6b77",
+    "path": "D:\\Project\\Skills\\downloads\\browser-firefox-win64.zip",
+    "url": "https://cdn.playwright.dev/dbazure/download/playwright/builds/firefox/1555/firefox-win64.zip",
+    "expectedSHA256Verified": false,
+    "installationPath": "C:\\Users\\user\\AppData\\Local\\ms-playwright\\firefox-1555"
+  }
+]

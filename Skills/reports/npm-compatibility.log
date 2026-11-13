@@ -1,0 +1,28 @@
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: skills-testing-toolkit@1.0.0
+npm warn Found: @vitest/coverage-v8@5.0.5
+npm warn node_modules/@vitest/coverage-v8
+npm warn   peerOptional @vitest/coverage-v8@"5.0.5" from vitest@5.0.5
+npm warn   1 more (the root project)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @vitest/coverage-v8@"5.0.5" from vitest@5.0.5
+npm warn node_modules/vitest
+npm warn   peer vitest@">=2.0.0" from @stryker-mutator/vitest-runner@10.0.0
+npm warn   node_modules/@stryker-mutator/vitest-runner
+npm warn   3 more (@testing-library/jest-dom, @vitest/coverage-v8, the root project)
+npm warn ERESOLVE overriding peer dependency
+npm warn While resolving: skills-testing-toolkit@1.0.0
+npm warn Found: @vitest/coverage-v8@5.0.5
+npm warn node_modules/@vitest/coverage-v8
+npm warn   peerOptional @vitest/coverage-v8@"5.0.5" from vitest@5.0.5
+npm warn   1 more (the root project)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peerOptional @vitest/coverage-v8@"5.0.5" from vitest@5.0.5
+npm warn node_modules/vitest
+npm warn   peer vitest@">=2.0.0" from @stryker-mutator/vitest-runner@10.0.0
+npm warn   node_modules/@stryker-mutator/vitest-runner
+npm warn   3 more (@testing-library/jest-dom, @vitest/coverage-v8, the root project)
+
+added 18 packages, removed 2 packages, and changed 7 packages in 31s

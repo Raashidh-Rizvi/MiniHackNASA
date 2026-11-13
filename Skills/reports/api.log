@@ -1,0 +1,27 @@
+Schemathesis v4.32.4
+Internal Error
+
+Schemathesis encountered an unexpected issue.
+
+Traceback (most recent call last):
+  File "D:\Project\Skills\.venv\Lib\site-packages\schemathesis\cli\executor.py", line 198, in execute_event_loop
+    h.start(ctx)
+    ~~~~~~~^^^^^
+  File "D:\Project\Skills\.venv\Lib\site-packages\schemathesis\cli\commands\run\handlers\output.py", line 1073, in start
+    display_header(SCHEMATHESIS_VERSION)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\Skills\.venv\Lib\site-packages\schemathesis\cli\output.py", line 186, in display_header
+    click.echo(style(HEADER_SEPARATOR * len(header), bold=True))
+    ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Project\Skills\.venv\Lib\site-packages\click\utils.py", line 345, in echo
+    file.write(out)  # type: ignore
+    ~~~~~~~~~~^^^^^
+  File "C:\Users\user\AppData\Local\Programs\Python\Python313\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode characters in position 0-19: character maps to <undefined>
+
+We apologize for the inconvenience. This appears to be an internal issue.
+Please consider reporting this error to our issue tracker:
+
+  https://github.com/schemathesis/schemathesis/issues/new?labels=Status%3A%20Needs%20Triage%2C+Type%3A+Bug&template=bug_report.md&title=%5BBUG%5D.

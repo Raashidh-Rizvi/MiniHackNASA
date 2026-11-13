@@ -1,0 +1,38 @@
+[
+  {
+    "url": "http://127.0.0.1:4173/",
+    "isRepresentativeRun": false,
+    "htmlPath": "D:\\Project\\Skills\\reports\\lighthouse\\127_0_0_1--2026_10_23_04_55_24.report.html",
+    "jsonPath": "D:\\Project\\Skills\\reports\\lighthouse\\127_0_0_1--2026_10_23_04_55_24.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.82
+    }
+  },
+  {
+    "url": "http://127.0.0.1:4173/",
+    "isRepresentativeRun": false,
+    "htmlPath": "D:\\Project\\Skills\\reports\\lighthouse\\127_0_0_1--2026_10_23_04_55_37.report.html",
+    "jsonPath": "D:\\Project\\Skills\\reports\\lighthouse\\127_0_0_1--2026_10_23_04_55_37.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.82
+    }
+  },
+  {
+    "url": "http://127.0.0.1:4173/",
+    "isRepresentativeRun": true,
+    "htmlPath": "D:\\Project\\Skills\\reports\\lighthouse\\127_0_0_1--2026_10_23_04_55_50.report.html",
+    "jsonPath": "D:\\Project\\Skills\\reports\\lighthouse\\127_0_0_1--2026_10_23_04_55_50.report.json",
+    "summary": {
+      "performance": 1,
+      "accessibility": 1,
+      "best-practices": 1,
+      "seo": 0.82
+    }
+  }
+]
